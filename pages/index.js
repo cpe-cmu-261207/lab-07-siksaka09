@@ -54,7 +54,7 @@ export default function Home() {
   };
 
   const moveDown = (idx) => {
-    if (idx === idx.length) return;
+    if (idx === idx.length - 1) return;
     const title = todos[idx].title;
     const completed = todos[idx].completed;
 
